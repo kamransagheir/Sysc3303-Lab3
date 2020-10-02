@@ -49,7 +49,6 @@ public class AddressBook {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Test!");
 		BuddyInfo budInfo = new BuddyInfo("Tom", "Carleton", "");
 		AddressBook adBook = new AddressBook();
 		adBook.addBuddy(budInfo);
